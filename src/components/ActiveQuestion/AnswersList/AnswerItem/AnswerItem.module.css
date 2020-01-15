@@ -1,0 +1,16 @@
+.item{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    transition: background-color .15s ease-in-out;
+}
+.fail{
+    background: red;
+}
+.success{
+    background: green;
+}

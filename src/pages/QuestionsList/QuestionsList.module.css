@@ -1,0 +1,20 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 10px 0;
+    cursor: pointer;
+}
+.link{
+    margin: 10px 0;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color .15s ease-in-out;
+}
+.link:hover{
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,28 @@
+.footer{
+    background: #000;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    padding: 10px 30px;
+}
+.nav a{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color .3s ease;
+}
+.nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 546px) {
+   .nav{
+       flex-direction: column;
+   }
+}

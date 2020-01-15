@@ -1,0 +1,31 @@
+.finished p{
+    text-transform: uppercase;
+    padding: 5px;
+}
+.finished button{
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    border: none;
+    transition: color .15s ease-in-out;
+}
+.retry{
+    background: deepskyblue;
+}
+.retry:hover{
+    color: white;
+}
+.refresh{
+    background: ghostwhite;
+}
+.refresh:hover{
+    color: green;
+}
+.fail{
+    background: red;
+}
+.success{
+    background: green;
+}
